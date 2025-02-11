@@ -18,6 +18,7 @@ public class MainProgress : MonoBehaviour
     /// 4 - 게임 종료
     /// </summary>
     public static int progress = 0;
+
     // Start is called before the first frame update
     void Start()
     {
