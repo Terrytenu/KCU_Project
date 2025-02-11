@@ -3186,7 +3186,7 @@ public class OVRManager : MonoBehaviour, OVRMixedRealityCaptureConfiguration
             // Looks like the developer is trying to run PT over Link. One possible failure cause is missing PTOL setup.
             string ptolDocLink = "https://developer.oculus.com/documentation/unity/unity-passthrough-over-link/";
             string ptolDocLinkTag = $"<a href=\"{ptolDocLink}\">{ptolDocLink}</a>";
-            Debug.LogError($"Failed to initialize Insight Passthrough. Please ensure that all prerequisites for " +
+            Debug.Log($"Failed to initialize Insight Passthrough. Please ensure that all prerequisites for " +
                            $"running Passthrough over Link are met: {ptolDocLinkTag}. " +
                            $"Passthrough will be unavailable. Error {result.ToString()}.");
 #else
