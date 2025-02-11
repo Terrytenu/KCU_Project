@@ -1,4 +1,4 @@
 # KCU_Project
 # MainProgress
 - MainProgress.health - health point of monster
-- MainProgress.
+- MainProgress.progress - status of the game stage
