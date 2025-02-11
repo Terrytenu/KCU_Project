@@ -1,3 +1,4 @@
 # KCU_Project
 # MainProgress
-# - health - health point of monster
+- MainProgress.health - health point of monster
+- MainProgress.
